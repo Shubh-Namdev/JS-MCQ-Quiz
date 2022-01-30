@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Resume">
+    <meta name="author" content="Shubham-Namdev">
+    <title>JS MCQ Quiz</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="./index.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="bg-secondary">
+    <div class="container border border-dark bg-light mt-4">
+        <header class="border-bottom border-secondary d-flex justify-content-center pt-3 ">
+            <h1>JS MCQ Quiz</h1>
+        </header>
+        <form id="mcq">
+            <ol>
+                <li>
+                    <h6 class="mt-3">React was created by ?</h6>
+                    <input class="" type="radio" name="flexradiodefault" value="false">Amazon</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault" value="true">Meta</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault" value="false">Google</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault" value="false">Microsoft</input>
+                </li>
+
+                <li>
+                    <h6 class="mt-3">Which techology is used for Web Devolopment?</h6>
+                    <input type="radio" name="flexradiodefault1" value="true">Bootstrap</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault1" value="false">Robotics</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault1" value="false">Kafka</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault1" value="false">Database</input>
+                </li>
+
+                <li>
+                    <h6 class="mt-3">Which property is used for background?</h6>
+                    <input type="radio" name="flexradiodefault2" value="false">Color</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault2" value="false">Flex</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault2" value="true">Background-color</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault2" value="false">Position</input>
+                </li>
+
+                <li>
+                    <h6 class="mt-3">Which function is used to repeat the functionality?</h6>
+                    <input type="radio" name="flexradiodefault3" value="false">Callback</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault3" value="false">BOM</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault3" value="false">DOM</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault3" value="true">Set-interval</input>
+                </li>
+
+                <li>
+                    <h6 class="mt-3">What does DOM stands for?</h6>
+                    <input type="radio" name="flexradiodefault4" value="false">Browser Object Model</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault4" value="true">Document Object Model</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault4" value="false">Direct Object Model</input>
+                    <input class="ml-4" type="radio" name="flexradiodefault4" value="false">Duo Object Model</input>
+                </li>
+            </ol>
+            <div class="d-flex justify-content-center">
+                <input class="mt-3 bg-success" type="button" id="btn_submit" name="btn_submit" value="Submit">
+            </div>
+            <footer>
+                <div class="mt-3 ml-3">
+                    <h6>Result</h6>
+                    <label>Final Call : </label>
+                    <label id="result"></label>
+                </div>
+            </footer>
+    </div>
+    </form>
+</body>
+
+</html>
